@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  hap-mingdao-single:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: HAP 单机版 (Mingdao)
+      catalog.cattle.io/kube-version: '>=1.23.0-0'
+      catalog.cattle.io/namespace: mingdao
+      catalog.cattle.io/release-name: hap-mingdao-single
+    apiVersion: v2
+    appVersion: 7.3.5
+    created: "2026-06-26T14:59:31.001816108+08:00"
+    description: HAP（明道云超级应用平台）单机版 - app/sc/command/doc/flink 五组件，sc 内置全部存储
+    digest: f4710d29146e396088af2a565ad72638c1dffc66c69999ae5a1c641fee833116
+    home: https://www.mingdao.com
+    icon: https://www.mingdao.com/favicon.ico
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: Mingdao
+    name: hap-mingdao-single
+    sources:
+    - https://docs-pd.mingdao.com
+    urls:
+    - https://okion-92.github.io/hap-charts/hap-mingdao-single-0.1.5.tgz
+    version: 0.1.5
+  hap-nocoly-single:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: HAP 单机版 (nocoly)
+      catalog.cattle.io/kube-version: '>=1.23.0-0'
+      catalog.cattle.io/namespace: nocoly
+      catalog.cattle.io/release-name: hap-nocoly-single
+    apiVersion: v2
+    appVersion: 7.3.5
+    created: "2026-06-26T14:59:31.002099012+08:00"
+    description: HAP（nocoly 超级应用平台）单机版 - app/sc/command/doc/flink 五组件，sc 内置全部存储
+    digest: 73dd50eecb89210c58c94b3924f3009fd17d8310acbc5873ac3a5110df0bea7d
+    home: https://www.nocoly.com
+    icon: https://www.nocoly.com/favicon.ico
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: nocoly
+    name: hap-nocoly-single
+    sources:
+    - https://docs-pd.nocoly.com
+    urls:
+    - https://okion-92.github.io/hap-charts/hap-nocoly-single-0.1.5.tgz
+    version: 0.1.5
+generated: "2026-06-26T14:59:31.000122265+08:00"
