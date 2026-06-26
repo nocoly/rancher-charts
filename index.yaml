@@ -1,28 +1,5 @@
 apiVersion: v1
 entries:
-  hap-mingdao-single:
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: HAP 单机版 (Mingdao)
-      catalog.cattle.io/kube-version: '>=1.23.0-0'
-      catalog.cattle.io/namespace: mingdao
-      catalog.cattle.io/release-name: hap-mingdao-single
-    apiVersion: v2
-    appVersion: 7.3.5
-    created: "2026-06-26T15:26:46.717199547+08:00"
-    description: HAP（明道云超级应用平台）单机版 - app/sc/command/doc/flink 五组件，sc 内置全部存储
-    digest: f4710d29146e396088af2a565ad72638c1dffc66c69999ae5a1c641fee833116
-    home: https://www.mingdao.com
-    icon: https://www.mingdao.com/favicon.ico
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - name: Mingdao
-    name: hap-mingdao-single
-    sources:
-    - https://docs-pd.mingdao.com
-    urls:
-    - https://okion-92.github.io/hap-charts/hap-mingdao-single-0.1.5.tgz
-    version: 0.1.5
   hap-nocoly-single:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -32,7 +9,7 @@ entries:
       catalog.cattle.io/release-name: hap-nocoly-single
     apiVersion: v2
     appVersion: 7.3.5
-    created: "2026-06-26T15:26:46.717737074+08:00"
+    created: "2026-06-26T16:13:16.536562365+08:00"
     description: HAP（nocoly 超级应用平台）单机版 - app/sc/command/doc/flink 五组件，sc 内置全部存储
     digest: 68fd4ca326557732abc71788083fa90d5929b8dd56723b23f66bfbd7e884800f
     home: https://www.nocoly.com
@@ -54,7 +31,7 @@ entries:
       catalog.cattle.io/release-name: hap-nocoly-single
     apiVersion: v2
     appVersion: 7.3.5
-    created: "2026-06-26T15:26:46.717468491+08:00"
+    created: "2026-06-26T16:13:16.536190724+08:00"
     description: HAP（nocoly 超级应用平台）单机版 - app/sc/command/doc/flink 五组件，sc 内置全部存储
     digest: 73dd50eecb89210c58c94b3924f3009fd17d8310acbc5873ac3a5110df0bea7d
     home: https://www.nocoly.com
@@ -68,4 +45,4 @@ entries:
     urls:
     - https://okion-92.github.io/hap-charts/hap-nocoly-single-0.1.5.tgz
     version: 0.1.5
-generated: "2026-06-26T15:26:46.716293776+08:00"
+generated: "2026-06-26T16:13:16.532975603+08:00"
