@@ -9,6 +9,29 @@ entries:
       catalog.cattle.io/release-name: hap-nocoly-single
     apiVersion: v2
     appVersion: 7.3.5
+    created: "2026-07-21T15:19:17.1880717+08:00"
+    description: Nocoly HAP single-node deployment with app, sc, command, doc, and
+      flink components
+    digest: 3d2b2271611ed94c7e93143a68f321a83f41189e28a68f83b68d04b5015baf20
+    home: https://www.nocoly.com
+    icon: https://www.nocoly.com/favicon.ico
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: nocoly
+    name: hap-nocoly-single
+    sources:
+    - https://docs-pd.nocoly.com
+    urls:
+    - hap-nocoly-single-7.3.502.tgz
+    version: 7.3.502
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Nocoly HAP Single-Node
+      catalog.cattle.io/kube-version: '>=1.23.0-0'
+      catalog.cattle.io/namespace: nocoly
+      catalog.cattle.io/release-name: hap-nocoly-single
+    apiVersion: v2
+    appVersion: 7.3.5
     created: "2026-07-21T14:50:17.597052+08:00"
     description: Nocoly HAP single-node deployment with app, sc, command, doc, and
       flink components
@@ -22,7 +45,7 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://raw.githubusercontent.com/nocoly/rancher-charts/main/hap-nocoly-single-7.3.501.tgz
+    - hap-nocoly-single-7.3.501.tgz
     version: 7.3.501
   - annotations:
       catalog.cattle.io/certified: partner
@@ -44,7 +67,7 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://raw.githubusercontent.com/nocoly/rancher-charts/main/hap-nocoly-single-0.1.7.tgz
+    - hap-nocoly-single-0.1.7.tgz
     version: 0.1.7
   - annotations:
       catalog.cattle.io/certified: partner
@@ -66,7 +89,7 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://raw.githubusercontent.com/nocoly/rancher-charts/main/hap-nocoly-single-0.1.6.tgz
+    - hap-nocoly-single-0.1.6.tgz
     version: 0.1.6
   - annotations:
       catalog.cattle.io/certified: partner
@@ -88,6 +111,6 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://raw.githubusercontent.com/nocoly/rancher-charts/main/hap-nocoly-single-0.1.5.tgz
+    - hap-nocoly-single-0.1.5.tgz
     version: 0.1.5
-generated: "2026-07-21T14:50:17.5949872+08:00"
+generated: "2026-07-21T15:19:17.1854777+08:00"

@@ -4,13 +4,20 @@ Official public Helm repository for deploying Nocoly HAP on Kubernetes and RKE2.
 
 ## Repository
 
+Add this repository to Rancher as a Git repository:
+
+- URL: `https://github.com/nocoly/rancher-charts`
+- Branch: `main`
+
+For Helm CLI use:
+
 ```bash
 helm repo add nocoly https://raw.githubusercontent.com/nocoly/rancher-charts/main/
 helm repo update
 helm search repo nocoly/hap-nocoly-single --versions
 ```
 
-Current release: `hap-nocoly-single` chart `7.3.501`, HAP `7.3.5`.
+Current release: `hap-nocoly-single` chart `7.3.502`, HAP `7.3.5`.
 
 ## Install
 
@@ -31,7 +38,7 @@ Adjust the endpoint, storage class, capacity, credentials, and resources for the
 
 1. Publish immutable container image tags.
 2. Increase `version` in `Chart.yaml`; update `appVersion` and image tags.
-3. Package the chart and regenerate `index.yaml` with this repository URL.
+3. Package the chart and regenerate `index.yaml` with relative package URLs.
 4. Verify the new package with `helm repo update` and a test installation.
 
 Never overwrite an existing chart version. Publish corrections as a new version.

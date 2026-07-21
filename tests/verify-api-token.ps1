@@ -1,6 +1,6 @@
 param(
   [Parameter(Mandatory = $true)] [string] $Helm,
-  [string] $Chart = (Join-Path $PSScriptRoot '..\hap-nocoly-single-7.3.501.tgz')
+  [string] $Chart = (Join-Path $PSScriptRoot '..\hap-nocoly-single-7.3.502.tgz')
 )
 
 $common = @(
