@@ -21,7 +21,7 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://okion-92.github.io/hap-charts/hap-nocoly-single-0.1.6.tgz
+    - https://nocoly.github.io/rancher-charts/hap-nocoly-single-0.1.6.tgz
     version: 0.1.6
   - annotations:
       catalog.cattle.io/certified: partner
@@ -43,6 +43,6 @@ entries:
     sources:
     - https://docs-pd.nocoly.com
     urls:
-    - https://okion-92.github.io/hap-charts/hap-nocoly-single-0.1.5.tgz
+    - https://nocoly.github.io/rancher-charts/hap-nocoly-single-0.1.5.tgz
     version: 0.1.5
 generated: "2026-06-26T16:13:16.532975603+08:00"
