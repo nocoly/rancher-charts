@@ -10,7 +10,7 @@ helm repo update
 helm search repo nocoly/hap-nocoly-single --versions
 ```
 
-Current release: `hap-nocoly-single` chart `0.1.6`, HAP `7.3.5`.
+Current release: `hap-nocoly-single` chart `0.1.7`, HAP `7.3.5`.
 
 ## Install
 
@@ -24,6 +24,8 @@ helm upgrade --install hap-nocoly-single nocoly/hap-nocoly-single \
 ```
 
 Adjust the endpoint, storage class, capacity, credentials, and resources for the target environment before production deployment.
+
+`hap.apiToken` is optional. When empty, the chart generates a 32-character token on first install and reuses it on upgrades. Set `hap.apiToken` explicitly to supply or rotate the value.
 
 ## Publishing a release
 
