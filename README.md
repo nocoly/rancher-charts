@@ -10,7 +10,7 @@ helm repo update
 helm search repo nocoly/hap-nocoly-single --versions
 ```
 
-Current release: `hap-nocoly-single` chart `0.1.7`, HAP `7.3.5`.
+Current release: `hap-nocoly-single` chart `7.3.501`, HAP `7.3.5`.
 
 ## Install
 
@@ -35,6 +35,20 @@ Adjust the endpoint, storage class, capacity, credentials, and resources for the
 4. Verify the new package with `helm repo update` and a test installation.
 
 Never overwrite an existing chart version. Publish corrections as a new version.
+
+## Versioning
+
+`appVersion` always matches the HAP version. The chart patch number is calculated as `HAP patch × 100 + chart revision`.
+
+| HAP version | Chart revision | Chart version |
+| --- | ---: | --- |
+| `7.3.5` | `0` | `7.3.500` |
+| `7.3.5` | `1` | `7.3.501` |
+| `7.3.5` | `2` | `7.3.502` |
+| `7.3.6` | `0` | `7.3.600` |
+| `7.3.6` | `1` | `7.3.601` |
+
+All catalog metadata, installation questions, and chart documentation must be written in English.
 
 ## Documentation and support
 
