@@ -5,7 +5,7 @@ Official public Helm repository for deploying Nocoly HAP on Kubernetes and RKE2.
 ## Repository
 
 ```bash
-helm repo add nocoly https://nocoly.github.io/rancher-charts/
+helm repo add nocoly https://raw.githubusercontent.com/nocoly/rancher-charts/main/
 helm repo update
 helm search repo nocoly/hap-nocoly-single --versions
 ```
